@@ -1,11 +1,10 @@
-
 " 'sorcerer.vim' -- Vim color scheme.
-" Maintainer:   Jeet Sukumaran
+" Maintainer: Akim Sadaoui
+" Based on 'vim-scripts/Sorcerer' by Jeet Sukumaran
 " Based on 'Mustang' by Henrique C. Alves (hcarvalhoalves@gmail.com),
 
 set background=dark
-
-" hi clear
+hi clear
 
 if exists("syntax_on")
   syntax reset
@@ -13,8 +12,9 @@ endif
 
 let colors_name = "sorcerer"
 
-" GUI Colors {{{1
-" ============================================================================
+"*****************************************************************************
+"{{{ GUI Colors
+"*****************************************************************************
 
 hi Normal       guifg=#c2c2b0 guibg=#202020 gui=NONE
 hi ColorColumn  guifg=NONE    guibg=#222222
@@ -103,10 +103,10 @@ hi pythonExClass    guifg=#996666 guibg=NONE gui=NONE
 hi pythonDecorator  guifg=#888555 guibg=NONE gui=NONE
 hi link pythonDecoratorFunction pythonDecorator
 
-" 1}}}
-
-" 256 Colors {{{1
-" ============================================================================
+"}}}
+"*****************************************************************************
+"{{{ 256 Colors Term
+"*****************************************************************************
 hi Normal                 cterm=NONE             ctermbg=235   ctermfg=145
 hi ColorColumn            cterm=NONE             ctermbg=237   ctermfg=fg
 hi Cursor                 cterm=NONE             ctermbg=241   ctermfg=fg
@@ -207,8 +207,6 @@ hi iCursor                cterm=NONE             ctermbg=210   ctermfg=16
 hi lCursor                cterm=NONE             ctermbg=145   ctermfg=234
 hi nCursor                cterm=NONE             ctermbg=46    ctermfg=16
 hi vCursor                cterm=NONE             ctermbg=201   ctermfg=16
-" 1}}}
-
-" Set background again -- for some reason, this does not always 'take' {{{1
-set background=dark
-" }}}1
+"}}}
+"*****************************************************************************
+" vim: ft=vim:fdm=marker:fmr={{{,}}}:fdl=0:ts=2:sw=2
