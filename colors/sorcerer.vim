@@ -149,7 +149,7 @@ hi WildMenu               cterm=NONE             ctermbg=116      ctermfg=16
 hi Comment                cterm=NONE             ctermbg=NONE     ctermfg=65
 hi Boolean                cterm=NONE             ctermbg=NONE     ctermfg=208
 hi String                 cterm=NONE             ctermbg=NONE     ctermfg=101
-hi Identifier             cterm=NONE             ctermbg=NONE     ctermfg=145
+hi Identifier             cterm=NONE             ctermbg=NONE     ctermfg=103
 hi Function               cterm=NONE             ctermbg=NONE     ctermfg=230
 hi Type                   cterm=NONE             ctermbg=NONE     ctermfg=103
 hi Statement              cterm=NONE             ctermbg=NONE     ctermfg=110
