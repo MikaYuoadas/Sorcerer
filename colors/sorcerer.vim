@@ -24,7 +24,7 @@ hi vCursor                gui=NONE               guibg=magenta    guifg=black
 hi iCursor                gui=NONE               guibg=LightCoral guifg=black
 hi cCursor                gui=reverse            guibg=NONE       guifg=NONE
 hi CursorColumn           gui=NONE               guibg=#2d2d2d    guifg=NONE
-hi CursorLine             gui=NONE               guibg=#000000    guifg=NONE
+hi CursorLine             gui=NONE               guibg=#2d2d2d    guifg=NONE
 hi DiffAdd                gui=NONE               guibg=#3cb371    guifg=#000000
 hi DiffDelete             gui=NONE               guibg=#aa4450    guifg=#000000
 hi DiffChange             gui=NONE               guibg=#4f94cd    guifg=#000000
@@ -108,8 +108,8 @@ hi link pythonDecoratorFunction pythonDecorator
 hi Normal                 cterm=NONE             ctermbg=NONE     ctermfg=145
 hi ColorColumn            cterm=NONE             ctermbg=236      ctermfg=NONE
 hi Cursor                 cterm=NONE             ctermbg=241      ctermfg=fg
-hi CursorColumn           cterm=NONE             ctermbg=16       ctermfg=fg
-hi CursorLine             cterm=NONE             ctermbg=0        ctermfg=NONE
+hi CursorColumn           cterm=NONE             ctermbg=236      ctermfg=fg
+hi CursorLine             cterm=NONE             ctermbg=236      ctermfg=NONE
 hi DiffAdd                cterm=NONE             ctermbg=71       ctermfg=16
 hi DiffDelete             cterm=NONE             ctermbg=124      ctermfg=16
 hi DiffChange             cterm=NONE             ctermbg=68       ctermfg=16
