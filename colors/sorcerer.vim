@@ -45,7 +45,7 @@ hi PmenuSel               gui=NONE               guibg=#b1d631    guifg=#000000
 
 hi Question               gui=bold               guibg=NONE       guifg=#00ee00
 hi Search                 gui=bold               guibg=#d6e770    guifg=#000000
-hi SignColumn             gui=NONE               guibg=#205050    guifg=#ffffff
+hi SignColumn             gui=NONE               guibg=#000000    guifg=#ffffff
 hi SpecialKey             gui=NONE               guibg=NONE       guifg=#505060
 hi SpellBad               gui=undercurl          guisp=#ee2c2c    guifg=NONE
 hi SpellCap               gui=undercurl          guisp=#0000ff    guifg=NONE
@@ -129,7 +129,7 @@ hi PmenuSbar              cterm=NONE             ctermbg=250      ctermfg=fg
 hi PmenuSel               cterm=NONE             ctermbg=149      ctermfg=16
 hi Question               cterm=bold             ctermbg=NONE     ctermfg=46
 hi Search                 cterm=bold             ctermbg=185      ctermfg=16
-hi SignColumn             cterm=NONE             ctermbg=23       ctermfg=231
+hi SignColumn             cterm=NONE             ctermbg=16       ctermfg=231
 hi SpecialKey             cterm=NONE             ctermbg=NONE     ctermfg=59
 hi SpellBad               cterm=undercurl        ctermbg=NONE     ctermfg=196
 hi SpellCap               cterm=undercurl        ctermbg=NONE     ctermfg=21
